@@ -28,8 +28,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-mongoose.connect("mongodb+srv://shawnbijuthomas:SZl4wDwWrMmcHo2N@cluster0.fjkm93c.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
-
+mongoose.connect("mongodb+srv://shawnbijuthomas:#@cluster0.fjkm93c.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
+//SZl4wDwWrMmcHo2N@
 
 
 app.use('/static', express.static(__dirname + '/public'));
