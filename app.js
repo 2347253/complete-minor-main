@@ -28,7 +28,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-mongoose.connect("mongodb+srv://yum:Password123@cluster0.dou0ms1.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
+mongoose.connect("mongodb+srv://shawnbijuthomas:SZl4wDwWrMmcHo2N@cluster0.fjkm93c.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
 
 

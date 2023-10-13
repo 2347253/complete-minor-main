@@ -15,7 +15,7 @@ function auth(req, res, next) {
     if (user == 'iha-admin' && pass == 'admin@iha2580') {
       res.cookie('user', 'admin', { signed: true });
       next(); // authorized
-    } else {
+    } else {  
       let err = new Error('You are not authenticated!');
       res.setHeader('WWW-Authenticate', 'Basic');
       err.status = 401;
